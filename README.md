@@ -17,4 +17,5 @@ https://github.com/Srivatsav-K/srivatsav-ai-chat/assets/104587732/5a60d280-2188-
 2. Install Dependencies: Install the necessary dependencies by running `pnpm install`.
 3. Follow [these instructions](https://github.com/jmorganca/ollama) to set up and run a local Ollama instance.
 4. Make sure the Ollama server is running
-5. Then start the project by running `pnpm run dev`
+5. Create a `.env.local` file and add this env variable `OLLAMA_BASE_URL=http://localhost:11434`
+6. Then start the project by running `pnpm run dev`
